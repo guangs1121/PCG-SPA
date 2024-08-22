@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const LandHolding = require('../models/landHolding');
+const LandHolding = require('../landHolding');
 
 // Get all land holdings
 router.get('/', async (req, res) => {
