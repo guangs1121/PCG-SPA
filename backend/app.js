@@ -1,10 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const authRoutes = require('../models/routes/authRoutes');
+const authRoutes = require('./models/routes/authRoutes');
 const ownerRoutes = require('./models/routes/ownerRoutes');
 const landHoldingRoutes = require('./models/routes/landHoldingRoutes');
-const fileRoutes = require('../models/routes/fileRoutes');
+const fileRoutes = require('./models/routes/fileRoutes');
 const app = express();
 
 // Middleware
